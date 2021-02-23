@@ -1,0 +1,37 @@
+body {
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.brand {
+    display: block;
+    color: orangered;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700; 
+}
+
+.hero {
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 150px;
+}
+
+
