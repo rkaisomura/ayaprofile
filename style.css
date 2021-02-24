@@ -1,21 +1,37 @@
 body {
-    margin: 20px;
+    margin: 0px 20px;
 }
 
-ul{
-    list-style-type: none;
-    text-align: right;
-}
-
-li {
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
-}
-
-a {
+li, a {
     text-decoration: none;
-    color: gray;
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.navitems {
+    list-style: none;
+}
+
+.navitems li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navitems li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navitems li a:hover {
+    color:orangered;
 }
 
 .brand {
@@ -23,11 +39,12 @@ a {
     color: orangered;
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
+    margin-right: auto;
 }
 
 .hero {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     background-color: black;
     color: white;
