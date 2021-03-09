@@ -51,6 +51,7 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
+    background-attachment: fixed;
 }
 
 .texthero {
@@ -62,6 +63,10 @@ header {
     border: none;
     border-radius: 50%;
     margin-right: 200px;
+}
+
+.imagehero:hover {
+    transform: scale(1.5);
 }
 
 .characteristics {
@@ -94,4 +99,34 @@ header {
     font-size: 20px;
     color: orangered;
 }
+
+/* Container for skill bars */
+.containerskill {
+    width: 30%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin: 0px;
+}
+  
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; /* Left-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: black; /* Black text color */
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.skills_energy {width: 90%; background-color: orangered; text-align: center;} 
+.skills_playfulness {width: 80%; background-color: orangered; text-align: center;} 
+.skills_frienddogs {width: 65%; background-color: orangered; text-align: center;} 
+.skills_friendstranger {width: 60%; background-color: orangered; text-align: center;} 
+.skills_training {width: 40%; background-color: orangered; text-align: center;} 
+.skills_sensitivity {width: 70%; background-color: orangered; text-align: center;} 
+.skills_exercise {width: 50%; background-color: orangered; text-align: center;} 
+.skills_affection {width: 100%; background-color: orangered; text-align: center;} 
+.skills_friendpet {width: 60%; background-color: orangered; text-align: center;} 
+.skills_watchfulness {width: 95%; background-color: orangered; text-align: center;} 
 
